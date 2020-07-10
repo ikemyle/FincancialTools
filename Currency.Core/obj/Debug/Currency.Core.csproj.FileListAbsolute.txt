@@ -1,0 +1,8 @@
+D:\LMSoftware\CurrencyConverter\bin\Debug\Currency.Core.dll.config
+D:\LMSoftware\CurrencyConverter\bin\Debug\Currency.Core.dll
+D:\LMSoftware\CurrencyConverter\bin\Debug\Currency.Core.pdb
+D:\LMSoftware\CurrencyConverter\Currency.Core\obj\Debug\Currency.Core.csprojAssemblyReference.cache
+D:\LMSoftware\CurrencyConverter\Currency.Core\obj\Debug\Currency.Core.csproj.CoreCompileInputs.cache
+D:\LMSoftware\CurrencyConverter\Currency.Core\obj\Debug\Currency.Core.csproj.CopyComplete
+D:\LMSoftware\CurrencyConverter\Currency.Core\obj\Debug\Currency.Core.dll
+D:\LMSoftware\CurrencyConverter\Currency.Core\obj\Debug\Currency.Core.pdb

@@ -1,0 +1,8 @@
+D:\LMSoftware\CurrencyConverter\CurrencyData\bin\Debug\CurrencyData.dll
+D:\LMSoftware\CurrencyConverter\CurrencyData\bin\Debug\CurrencyData.pdb
+D:\LMSoftware\CurrencyConverter\CurrencyData\bin\Debug\log4net.dll
+D:\LMSoftware\CurrencyConverter\CurrencyData\bin\Debug\log4net.xml
+D:\LMSoftware\CurrencyConverter\CurrencyData\obj\Debug\CurrencyData.csproj.CoreCompileInputs.cache
+D:\LMSoftware\CurrencyConverter\CurrencyData\obj\Debug\CurrencyData.csproj.CopyComplete
+D:\LMSoftware\CurrencyConverter\CurrencyData\obj\Debug\CurrencyData.dll
+D:\LMSoftware\CurrencyConverter\CurrencyData\obj\Debug\CurrencyData.pdb

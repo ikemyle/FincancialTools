@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="CurrencyConverter.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid>
+        <mui:ModernTab SelectedSource="/CurrencyConverter;component/Views/CurrencyConversion.xaml" Layout="List">
+            <mui:ModernTab.Links>
+                <mui:Link DisplayName="Currency Converter" Source="/CurrencyConverter;component/Views/CurrencyConversion.xaml" />
+                <mui:Link DisplayName="Currency Maintenance" Source="/CurrencyConverter;component/Views/Master.xaml" />
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+    </Grid>
+    
+</UserControl>

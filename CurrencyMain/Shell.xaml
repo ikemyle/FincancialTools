@@ -1,0 +1,17 @@
+﻿<mui:ModernWindow x:Class="Currency.Shell"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:app="clr-namespace:Currency"
+                  Icon="elc.ico"
+                  Title="Financial Modules"
+                  IsTitleVisible="True"
+                  Width="1124" Height="800"
+                  WindowStartupLocation="CenterScreen"
+                  ContentSource="/Views/DataGrid.xaml">
+
+    <mui:ModernWindow.TitleLinks>
+        <mui:Link DisplayName="Settings" Source="/Views/SettingsView.xaml" />
+        <mui:Link DisplayName="Help" Source="http://lmsoftinc.com/" />
+    </mui:ModernWindow.TitleLinks>
+</mui:ModernWindow>

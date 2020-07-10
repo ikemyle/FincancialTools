@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="CurrencyConverter.Controls.CurrencySelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CurrencyConverter.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="66" d:DesignWidth="392">
+    <UserControl.Resources>
+        <Style x:Key="CurrencyListStyle" TargetType="{x:Type ListBoxItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border Name="_Border"
+                                Padding="4,2"
+                                Margin="6,0"
+                                Cursor="Hand"
+                                SnapsToDevicePixels="true">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="true">
+                                <Setter TargetName="_Border" Property="Background" Value="#FFF6F6F6"></Setter>
+                                <Setter TargetName="_Border" Property="BorderThickness" Value="0,0,0,3"/>
+                                <Setter TargetName="_Border" Property="BorderBrush" Value="DarkOrange"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Width="392" Height="66">
+        <ListBox x:Name="CurrencyList" ItemContainerStyle="{StaticResource CurrencyListStyle}" ItemsSource="{Binding Currencies,Mode=TwoWay}" SelectedItem="{Binding CurrencySelected,Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Currency}" FontSize="18" FontFamily="Arial" FontWeight="Bold" Padding="2" />
+                        <Image Source="{Binding Icon}" Height="16"></Image>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel></WrapPanel>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ListBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyMain", "CurrencyMain\CurrencyMain.csproj", "{EFDBFC84-CFA2-4AB2-A94F-9A3CC58E091F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency.Core", "Currency.Core\Currency.Core.csproj", "{085A3767-0F46-4923-8EB5-596CE276FC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B4821B4E-FD33-4426-94BD-41CA302FB6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyModule\CurrencyConverter.csproj", "{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyData", "CurrencyData\CurrencyData.csproj", "{5A038AD7-26E4-4F13-8E8C-058228C63604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDBFC84-CFA2-4AB2-A94F-9A3CC58E091F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDBFC84-CFA2-4AB2-A94F-9A3CC58E091F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDBFC84-CFA2-4AB2-A94F-9A3CC58E091F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDBFC84-CFA2-4AB2-A94F-9A3CC58E091F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085A3767-0F46-4923-8EB5-596CE276FC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085A3767-0F46-4923-8EB5-596CE276FC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085A3767-0F46-4923-8EB5-596CE276FC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085A3767-0F46-4923-8EB5-596CE276FC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A038AD7-26E4-4F13-8E8C-058228C63604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A038AD7-26E4-4F13-8E8C-058228C63604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A038AD7-26E4-4F13-8E8C-058228C63604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A038AD7-26E4-4F13-8E8C-058228C63604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D0FFEDA-5F0D-489C-AEC8-603D2405CA0D} = {B4821B4E-FD33-4426-94BD-41CA302FB6DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DDBBB53-3D8B-4F6C-8C73-70EA15018C5A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lmsoft.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Currency.Core\\Currency.Core.csproj
+		SccProjectName1 = Currency.Core
+		SccLocalPath1 = Currency.Core
+		SccProjectUniqueName2 = CurrencyMain\\CurrencyMain.csproj
+		SccProjectName2 = CurrencyMain
+		SccLocalPath2 = CurrencyMain
+		SccProjectUniqueName3 = CurrencyModule\\CurrencyConverter.csproj
+		SccProjectTopLevelParentUniqueName3 = CurrencyModules.sln
+		SccProjectName3 = CurrencyModule
+		SccLocalPath3 = CurrencyModule
+		SccProjectUniqueName4 = CurrencyData\\CurrencyData.csproj
+		SccProjectName4 = CurrencyData
+		SccLocalPath4 = CurrencyData
+	EndGlobalSection
+EndGlobal
