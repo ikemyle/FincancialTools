@@ -15,4 +15,4 @@ App features
 3. Currency conversion calculayion module
 4. Country Currency view
 
-!Currency page screen(https://github.com/ikemyle/FinacialTools/master/currencypage.png?raw=true)
+![Currency page screen](https://github.com/ikemyle/FincancialTools/blob/master/CurrencyModule.png?raw=true)
