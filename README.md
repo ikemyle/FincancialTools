@@ -2,7 +2,7 @@
 
 WPF Features
 1. Prism.Unity modularity
-2. Event agrgation using mediator
+2. Event agregation using mediator
 3. GalaSoft MVVM Light
 3.ModernUI free WPF Metro UI
 
