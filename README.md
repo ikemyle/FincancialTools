@@ -17,4 +17,6 @@ App features
 3. Currency conversion calculation module
 4. Country Currency view
 
+Note: Please rebuild solution before running since the modules need to be copied in the main project bin folder.
+
 ![Currency page screen](https://github.com/ikemyle/FincancialTools/blob/master/CurrencyModule.png?raw=true)
